@@ -1,0 +1,61 @@
+/* Header * Body Fonts */
+@import url("https://fonts.googleapis.com/css2?family=Merriweather&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Merriweather&family=Noto+Serif&display=swap");
+
+/*Headers */
+
+.main-titles {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  font-family: "Merriweather", serif;
+}
+.main-titles > h1 {
+  color: #4d5df0;
+}
+/*body and paragraphs */
+body {
+  font-family: "Noto Serif", serif;
+  
+}
+p {
+  line-height: 2em;
+}
+.p-div {
+  padding: 0 1em;
+  width: 80%;
+  margin-right: auto;
+  margin-left: auto;
+  border-style: solid;
+  border-color: #72e6e6;
+  border-width: 1px;
+  border-radius: 20px;
+  
+  text-align: left;
+ 
+  
+ 
+}
+#p-1 {
+background-color: #9ca5f7;
+
+} 
+#p-3{
+    background-color: #9ca5f7;
+    } 
+#color-p {
+  color: #0097ee;
+}
+
+/* Image */
+figure{
+    float: left;
+    
+    
+    
+}
+figure > img {
+   
+    width: 100%;
+}
